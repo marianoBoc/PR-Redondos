@@ -16,30 +16,39 @@
         <a href="../index.html"><img src="../imagenes/artworks-000113447942-vt5bw7-t500x500.jpg" alt="logo-pr" class="logo"></a>
         <h1>PATRICIO REY Y SUS REDONDITOS DE RICOTA</h1>
     </header> 
-    <div>
-        <div class="dropdown">
-            <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Menu
-     ]sqwwqqqww]       </a
-          
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="./Discografia.html">Discografia</a></li>
-              <li><a class="dropdown-item" href="./Recitales.html">Recitales</a></li>
-              <li><a class="dropdown-item" href="./Galeria.html">Galeria</a></li>
-              <li><a class="dropdown-item" href="./Algunas-Preguntas.html">algunas Preguntas</a></li>
-            </ul>
-          </div>
-       <!--<nav> 
-            <ul class="menu">  
+    <!-- <div>
+        <nav> 
+            <ul class="menu 1 ">  
                 <li><a href="./Discografia.html">Discografia</a></li>    
                 <li><a href="./Recitales.html">Recitales</a></li>    
                 <li><a href="./Galeria.html">Galeria</a></li>    
                 <li><a href="./Algunas-Preguntas.html">Algunas Preguntas</a></li> 
             </ul>    
-        </nav>-->
-    </div>
+        </nav>
+    </div>-->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Discografia.html">Discografia</a></li>
+                <li><a class="dropdown-item" href="./Recitales.html">Recitales</a></li>
+                <li><a class="dropdown-item" href="./Galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="./Algunas-Preguntas.html">Algunas Preguntas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
-        <h2 class="titulos-algunas">Algunas Preguntas</h2>
+        <h2 class="titulos">Algunas Preguntas</h2>
         <h3>¿Qué significa Patricio Rey y sus Redonditos de Ricota?</h3>
         <p class="preguntas">El nombre de la banda siempre fue un enigma: Patricio Rey es un personaje casi mitológico y "Redonditos de ricota" eran una especie de ravioles que preparaba El Doce, el cocinero del grupo. Por esos tiempos, los integrantes cambiaban a menudo. La consigna era juntarse y divertirse.</p>
 
@@ -52,20 +61,21 @@
         <h3>¿Quien fue La Negra Poli?</h3>
         <p class="preguntas">Carmen Castro, más conocida como La "Negra" Poli, es una empresaria musical argentina, especialista en bandas de rock argentino. Es reconocida en el ambiente, por haber sido la histórica mánager del grupo de rock argentino Patricio Rey y sus Redonditos de Ricota.</p>
 
-        <h3>¿Cuando gue el ultimo Recital de Los Redondos?</h3>
+        <h3>¿Cuando fue el ultimo Recital de Los Redondos?</h3>
         <p class="preguntas">En el entonces Chateau Carreras cordobés, hoy bautizado Mario Kempes, el Indio Solari, Skay Beilinson y sus muchachos ofrecieron su última función el 4 de agosto de 2001; aquí una parte de aquella historia que llegará en septiembre al libro con el título de La última noche de Patricio Rey</p>
 
     </main>
-    <section>
-         <form action="404.html" class="formulario">
-            <input type="text" placeholder="nombre">
-            <input type="email" placeholder="deje su email" required>
-            <textarea name="" id="" cols="30" rows="10">Dejanos tu pregunta...</textarea>
-            <input type="submit">
-            <input type="reset">
-         </form>
-    </section>
-
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control formulario" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <textarea name="" id="" cols="50" rows="6" placeholder="Dejanos tu pregunta..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
     <footer>
         <p>instagram</p>
         <p>facebook</p>
