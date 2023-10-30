@@ -1,4 +1,9 @@
 
-@import "reset";
 @import "variables";
+@import "map";
+@import "reset";
 
+.pr{
+   color: map-get($colores, color-titulos );
+   //color: red;
+}

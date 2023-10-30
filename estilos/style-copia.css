@@ -7,7 +7,7 @@
 body {
     background-color: black;
     color: white;
-    font-family:  'Filósofo', sans-serif;
+    font-family:'Filósofo', sans-serif;
     margin: 15px;
 }
 header{
@@ -18,10 +18,14 @@ header{
     width: 400px;
     height: 300px;
 }
-
+.logo1{
+    width: 700px;
+    height: 300px;
+}
 h1{
     color:red;
     font-size: 70px;
+    
 }
 a{
     text-decoration: none;
@@ -48,14 +52,25 @@ a:hover{
     margin-left: 40%;
     margin-bottom: 30px;
 }
-h2{
-    margin: 20px;
-}
+
+/*estilos del index*/
+
 .img-intro{
     margin-left: 15%;
 }
 .intro{
     margin: 15px;
+}
+
+.sitios{
+    display: block;
+    margin-top: 0%;
+}
+
+/*estilos discografia*/
+
+h2{
+    margin: 20px;
 }
 .lista-gulp{
     width: 40%;
@@ -76,6 +91,10 @@ ol{
 .subir{
     margin: 10px;
 }
+/*estilos recitales*/
+section {
+    margin: 20px;
+}
 h3{
     font-weight: bold;
     margin: 15px;
@@ -83,10 +102,11 @@ h3{
 }
 
 iframe{
-    margin-top: 5%;
-    width: 40%;
-    height: 70%;
+    margin: 5%;
+    width: 60%;
+    height: 300px;
 }
+/*estilos galeria*/
 
 .fotos{
     display: grid;
@@ -96,90 +116,107 @@ iframe{
 
 .fotos img{
     display: inline-block;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+}
+
+.transition{
     width: 90%;
     height: 90%;
-    margin: 20px;
+    transition: 1s;
 }
-
-
-
-section {
-    margin: 20px;
+.transition:hover{
+    position: relative; 
+    width: 110%;
+    height: 110%;
 }
+/*estilos algunas-preguntas*/
 #letra{
-    display:flex;
-    justify-content:center;
-    list-style: none;
-    font-size: 30px;
-    color: #551A8b;   
-    
+    color: #551A8b;       
 }
-
-.preguntas{
-    margin-top: 5px;
-    margin-left: 20px;
-    padding: 10px;
+.pre{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 .formulario {
     width: 20%; 
-
 }
+/*estilo footer*/
 footer{
     margin: 35px;
     display: flex;
     justify-content:space-evenly;
-
 }
 
-
-@media (min-width:375px) and (max-width:576px){
+@media (min-width:320px) and (max-width:576px){
 
     header{
         flex-direction: row;
        /*   flex-wrap: wrap;*/          
     }
     .logo{
-        width: 20%;
+        width: 28%;
+        height: 30%;
+    }
+    .logo1{
+        width: 15%;
         height: 30%;
     }
     
     
     a{
-        width: 90%;
+        width: 70%;
         height: 80%;
         margin-right: -70%;        
     }
     h1{
-        font-size:160%; 
-        margin-left: 25%;
-    }    
+        font-size:90%; 
+        margin-left: 32%;
+    }   
+    .pr{
+        margin-left: auto;
+    } 
     
     .menu {
         justify-content: space-around;
         list-style: none;
-        font-size: 20px;  
-        margin-top: 10px;   
-    }    
+        font-size: 80%;  
+        margin-top: 10px;  
+        padding: 0%; 
+    }   
+    
+    .sitios{
+        margin-top: 5%;
+    }
     .titulos{
         font-size: 25px;
+        margin-left: 25%;
     }
     .img-intro{
         margin-left: 25%;
     }
+    .intro{
+        width: 110%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: -5%;
+    }
     .lista-gulp{
-        width: auto;
-        height: auto;
-        
+        width: 110%;
+        height: 30%;
+        margin-left: -10px;
     }
     .memorables{
         font-size: 20px;
+        width: 90%;
+        margin-left: 0%;
     }
     iframe{
-        width: 400px;
-        height: 300px;
-        margin-left: 35px;
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
     }
     
     .fotos{
@@ -192,10 +229,24 @@ footer{
         height: 50%;
 
     }
-    
-        
+
+    .preg{
+        width: 100%;
+        height: 40%;
+    }
+    .pr{
+        font-size: 70%;
+    }
+    .formulario{
+        width: 60%;
+    }
+    textarea{
+        width: 100%;
+        height: 120px;
+    }
     footer{
         font-size: 10px;
+        margin-left: 10%;
     }
     
 }
