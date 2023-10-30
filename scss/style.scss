@@ -1,9 +1,15 @@
 
+@import "reset";
 @import "variables";
 @import "map";
-@import "reset";
+@import "mixins";
+@import "header";
+@import "inicio";
+@import "discografia";
+@import "recitales";
+@import "galeria";
+@import "algunas-preguntas";
+@import "foother";
+@import "responsive";
 
-.pr{
-   color: map-get($colores, color-titulos );
-   //color: red;
-}
+

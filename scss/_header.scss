@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    color: map-get($colores, color-titulos );
+    font-size: 70px;
+    font-family: $font-h1;
+}
+.logo{
+    width: 400px;
+    height: 300px;
+}    
+.logo1{
+    width: 700px;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    &:hover {
+        color: black !important;
+        background-color: white;
+        font-weight: 700;
+        cursor:pointer;
+    }
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 30px;     
+   
+}

@@ -1,0 +1,36 @@
+@mixin temas($background-color, $color){
+    background-color:$background-color;
+    color:$color;
+    border: solid 1px whitesmoke;
+    width: 25%;
+   }
+.ol-1{
+    @include temas(red,rgb(233, 208, 208))
+}
+.ol-2{
+    @include temas(rgb(211, 96, 163),rgb(233, 208, 208))
+}
+.ol-3{
+    @include temas(blueviolet,rgb(150, 26, 26))
+}
+.ol-4{
+    @include temas(rgb(255, 51, 0), yellow)
+}
+.ol-5{
+    @include temas(rgb(207, 26, 26),rgb(228, 209, 209))
+}
+.ol-6{
+    @include temas(rgb(19, 19, 180),yellow)
+}
+.ol-7{
+    @include temas(grey,gold)
+}
+.ol-8{
+    @include temas(silver,rgb(102, 94, 94))
+}
+.ol-9{
+    @include temas(rgb(139, 137, 137),rgb(189, 189, 189))
+}
+.ol-10{
+    @include temas(red,rgb(250, 230, 230))
+}

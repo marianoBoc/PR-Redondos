@@ -1,0 +1,25 @@
+body{
+    background-color: $color-primario;
+    color: map-get($colores, color-letra);
+    font-family:$font-principal;
+    margin: 15px;
+}
+.titulos{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+/*estilos del inicio*/
+.img-intro{
+    margin-left: 15%;
+}
+.intro{
+    margin: 15px;
+}
+
+.sitios{
+    display: block;
+    margin-top: 0%;
+}
