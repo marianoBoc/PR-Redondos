@@ -111,7 +111,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-  font-size: 20px;
+  font-size: 190%;
 }
 
 body {
@@ -189,8 +189,7 @@ ol {
   background-color: rgb(3, 97, 3);
   color: rgb(212, 199, 199);
 }
-
-li {
+ol li {
   width: 100%;
   font-size: 20px;
 }
@@ -314,7 +313,7 @@ footer {
   }
   .logo1 {
     width: 15%;
-    height: 30%;
+    height: 20%;
   }
   a {
     width: 70%;
@@ -329,47 +328,54 @@ footer {
     margin-left: auto;
   }
   .menu {
+    display: flex;
     justify-content: space-around;
     list-style: none;
-    font-size: 80%;
+    font-size: 75%;
     margin-top: 10px;
     padding: 0%;
   }
-  .sitios {
-    margin-top: 5%;
-  }
   .titulos {
     font-size: 25px;
-    margin-left: 25%;
+    margin-left: 40%;
   }
-  .img-intro {
-    margin-left: 10%;
-    width: 80%;
-    height: 70%;
+  .principio {
+    width: 250px;
+    height: 200px;
+    margin-left: -30%;
   }
   .intro {
-    width: 110%;
+    width: 80%;
     margin-top: 15%;
     margin-bottom: 15%;
     margin-left: -5%;
   }
+  .redes h3 {
+    font-size: 110%;
+  }
+  .sitios {
+    margin-top: 5%;
+  }
   .tapas {
     border: 1px solid grey;
-    margin-left: 10%;
-    width: 70%;
+    margin-left: 5%;
+    width: 80%;
     height: 60%;
   }
   h2 {
-    width: 100%;
+    width: 80%;
   }
   .lista {
-    width: 80%;
+    width: 70%;
     margin-left: 5%;
   }
   .lista-gulp {
-    width: 110%;
+    width: 95%;
     height: 30%;
     margin-left: -10px;
+  }
+  section a {
+    margin: 0%;
   }
   .memorables {
     font-size: 20px;
@@ -390,6 +396,9 @@ footer {
     width: 50%;
     height: 50%;
   }
+  .titu {
+    margin-left: 10%;
+  }
   .preg {
     width: 100%;
     height: 40%;
@@ -404,8 +413,11 @@ footer {
     width: 95%;
     height: 120px;
   }
+  .subir {
+    margin: 15%;
+  }
   footer {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 10%;
   }
 }

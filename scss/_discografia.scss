@@ -28,11 +28,12 @@ ol{
     color:rgb(212, 199, 199);
     //width: 65%;
     //height: 20%;
+    li{
+        width: 100%;
+        font-size: 20px;
+    }
 }
-li{
-    width: 100%;
-    font-size: 20px;
-}
+
 .tapas{
     border: 1px solid grey;
     margin: 15px;
