@@ -3,23 +3,39 @@ body{
     color: map-get($colores, color-letra);
     font-family:$font-principal;
     margin: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .titulos{
     font-size: 40px;
     text-decoration: underline;
-    margin-top: 30px;
-    margin-left: 40%;
-    margin-bottom: 30px;
-}
+    margin: 30px;
+   }
 /*estilos del inicio*/
-.img-intro{
-    margin-left: 15%;
+.uno{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
-.intro{
-    margin: 15px;
+.img-intro{
+    margin: 20px;
+    width: 50%;
+    height: 40%;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    h3{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .sitios{
-    display: block;
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
 }

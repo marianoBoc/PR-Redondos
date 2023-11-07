@@ -1,10 +1,23 @@
 /*estilos recitales*/
+.recitales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 section {
-    margin: 20px;
+    //margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h3{
         font-weight: bold;
         margin: 15px;
-        margin-left: 0px;
+        //margin-left: 0px;
+    }
+    p{
+        width: 80%;
     }
     iframe{
         margin: 5%;
