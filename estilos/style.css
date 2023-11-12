@@ -149,16 +149,6 @@ body {
   justify-content: center;
   margin: 2%;
 }
-.facebook{
-  background-color: #0866FF;
-  width: 2%;
-  height: 2%;
-}
-.instagram{
-  background-color: #E4405F;
-  width: 2%;
-  height: 2%;
-}
 .redes h3 {
   display: flex;
   justify-content: center;
@@ -312,6 +302,18 @@ footer {
   justify-content: space-evenly;
 }
 
+.facebook {
+  background-color: #0866FF;
+  width: 2%;
+  height: 2%;
+}
+
+.instagram {
+  background-color: #E4405F;
+  width: 2%;
+  height: 2%;
+}
+
 @media (min-width: 320px) and (max-width: 576px) {
   header {
     flex-direction: row;
@@ -428,7 +430,12 @@ footer {
   }
   footer {
     font-size: 9px;
-    margin-left: 10%;
+    margin-left: 25%;
+  }
+  .iconos {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
   }
 }
 
