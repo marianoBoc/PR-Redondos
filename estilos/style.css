@@ -149,6 +149,16 @@ body {
   justify-content: center;
   margin: 2%;
 }
+.facebook{
+  background-color: #0866FF;
+  width: 2%;
+  height: 2%;
+}
+.instagram{
+  background-color: #E4405F;
+  width: 2%;
+  height: 2%;
+}
 .redes h3 {
   display: flex;
   justify-content: center;
